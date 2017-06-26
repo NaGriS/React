@@ -1,0 +1,81 @@
+.none {
+    display: none;
+}
+body {
+    background-image: url("images/news.jpg")
+}
+.article {
+    display: block;
+    margin: 5px;
+    width: inherit;
+    border-radius: 5px;
+    background: linear-gradient(to left, gray, white);
+    padding-bottom: 10px;
+}
+.article > * {
+    padding: 5px 10px;
+    margin: 0;
+}
+.news-author {
+    display: inline-block;
+    font-style: italic;
+    font-weight: bold;
+}
+.news-text {
+    font-style: italic;
+    display: block;
+}
+.news-fulltext {
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.news-readmore {
+    padding-bottom: 10px;
+}
+h3 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.total-news {
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    width: 430px;
+    font-weight: bold;
+}
+.total-news-text {
+    text-align: center;
+    margin-left: 70px;
+}
+.app {
+    width: 500px;
+    height: 80%;
+    position: absolute;
+    left: 710px;
+    background: linear-gradient(to right, gray, white);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.no-news {
+    color: black;
+    font-weight: bold;
+}
+.like-button {
+    padding-right: 10px;
+    width: 60px;
+}
+.like-button-text {
+    display: inline-block;
+}
+.text-input {
+    margin: 5px;
+}
+.btn {
+    background-color: mediumaquamarine;
+}
+.btn:hover {
+    background-color: darken(mediumaquamarine);
+}
